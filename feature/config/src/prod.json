@@ -1,0 +1,11 @@
+{
+    "env": "prod",
+    "api": {
+      "version": "1.0.0",
+      "baseUrl": "https://immotech.cloud"
+    },
+    "codePush": {
+      "android": "wapnN-jYaKABbMECF5hR9cbVv3nKBUPcFo6pt"
+    }
+  }
+  

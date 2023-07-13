@@ -1,0 +1,227 @@
+{
+  "main": {
+    "entity": "Wirtschaftseinheiten",
+    "entities": "Wirtschaftseinheiten",
+    "property": "Objekt",
+    "properties": "Objekte",
+    "utilization_unit": "Nutzungseinheit",
+    "utilization_units": "Nutzungseinheiten",
+    "created": "Erstellt",
+    "todos": "ToDo's",
+    "maintenance": "TGA/Wartung",
+    "building_services": "TGA/Wartung",
+    "cancel": "Abbrechen",
+    "take_photo": "Foto aufnehmen/auswählen",
+    "unable_add": "Es trat leider ein Fehler bei der Erstellung auf.",
+    "fill_gps": "Adresse mittels GPS-Standort ausfüllen.",
+    "search": "Suche",
+    "entities_list": "Wirtschaftseinheit - Übersicht",
+    "properties_list": "Objekt - Übersicht",
+    "maintenance_list": "TGA/Wartung - Übersicht",
+    "todo_list": "To-Do - Übersicht",
+    "select_parameter": "Parameter auswählen",
+    "no_maintenances": "Keine TGA/Wartungen vorhanden.",
+    "no_todos": "Keine To-Dos vorhanden.",
+    "no_properties": "Keine Objekte vorhanden.",
+    "no_entities": "Keine Wirtschaftseinheiten vorhanden.",
+    "clear_search": "Suche zurücksetzen",
+    "search_by_name": "Suche nach Name",
+    "overview": "Übersicht",
+    "see_all": "siehe alle",
+    "detailed_info": "Ausführliche Infos",
+    "value": "Wert",
+    "parent_container": "Übergeordneter Container",
+    "active_todos": "offene Todo's"
+  },
+  "validators": {
+    "title": "Das Feld Titel ist erforderlich",
+    "name": "Das Namensfeld ist erforderlich",
+    "id": "ID-Feld ist erforderlich",
+    "city": "Das Feld Stadt ist erforderlich",
+    "zip_code": "Das Feld für die Postleitzahl ist erforderlich",
+    "container": "Der Container ist erforderlich",
+    "type": "Der Objektart ist erforderlich",
+    "address": "Die Adresse ist erforderlich",
+    "field": "Feld ist erforderlich",
+    "street": "Straßenname ist erforderlich",
+    "building": "Die Gebäudenummer ist erforderlich",
+    "postal_code": "Die Postleitzahl ist erforderlich"
+  },
+  "protocols_statuses": {
+    "not_testable": "Nicht überprüfbar",
+    "defect": "Defekt",
+    "no_damage": "Keine Beschädigung",
+    "leakage": "Undicht",
+    "missing": "Fehlt",
+    "dirty": "Schmutzig",
+    "clogged": "Verstopft",
+    "disturbance": "Störung",
+    "not_functional": "Nicht funktionsfähig",
+    "vandalism": "Vandalismus",
+    "expired": "Abgelaufene Prüfung"
+  },
+  "attribute": {
+    "value": "Attribut Wert",
+    "type": "Attribut Typ",
+    "add": "Attribut hinzufügen",
+    "delete": "Attribut löschen"
+  },
+  "profile": {
+    "username": "Benutzername",
+    "country": "Land",
+    "city": "Stadt",
+    "region": "Region",
+    "street": "Straße",
+    "sign_out": "Abmelden"
+  },
+  "entities_list": {
+    "add_new": "Neue Wirtschaftseinheit anlegen",
+    "city": "Stadt",
+    "zip_code": "PLZ",
+    "internal_number": "Interne Nummer",
+    "last_viewed": "Zuletzt gesehen"
+  },
+  "entities_details": {
+    "title": "Name"
+  },
+  "properties_list": {
+    "add_new": "Neues Objekt anlegen",
+    "from_me": "von mir",
+    "distance_unknown": "Entfernung unbekannt",
+    "nearby": "In der Nähe"
+  },
+  "properties_details": {
+    "type": "Objektart",
+    "select_type": "Objektart auswählen",
+    "photo": "Übersichtsbild",
+    "image": "Übersichtsbild",
+    "address": "Adresse",
+    "map": "Karte",
+    "select_list": "Wählen Sie die Liste"
+  },
+  "tga": {
+    "add_new": "Neue TGA anlegen",
+    "type": "Typ",
+    "no_type": "Kein Typ",
+    "location": "Standort",
+    "no_location": "Kein Standort",
+    "manufacturer": "Hersteller",
+    "no_manufacturer": "Kein Hersteller",
+    "date_installation": "Baujahr / Einbaudatum",
+    "images": "Bilder",
+    "subtype": "Subtyp",
+    "no_subtype": "Kein Subtyp",
+    "maintenance_type": "Wartungstyp",
+    "no_maintenance_type": "Kein Wartungstyp",
+    "add_note": "Notiz hinzufügen",
+    "delete_note": "Notiz löschen",
+    "service_provider": "Zuständigkeit"
+  },
+  "protocol": {
+    "localization": "Lokalisierung",
+    "form_invalid": "Formular ist ungültig",
+    "confirm": "Bestätigen",
+    "start_protocol": "Protokoll starten",
+    "protocols_list": "Protokollübersicht",
+    "fix": "Maßnahme",
+    "protocol_creation": "Protokoll erstellen",
+    "skip_maintenance": "Diese Anlage überspringen",
+    "send_protocol": "Protokoll generieren",
+    "continue_protocol": "Protokoll fortsetzen",
+    "new_protocol_confirm": "Möchten Sie das neue Protokoll starten?",
+    "new_protocol": "Neues Protokoll",
+    "edit_protocol": "Protokoll bearbeiten",
+    "confirm_changes": "Änderungen bestätigen",
+    "download_pdf": "PDF herunterladen"
+  },
+  "todo": {
+    "add_new": "Neuen ToDo anlegen",
+    "list": {
+      "short_desc": "Kurzbeschreibung",
+      "long_desc": "Langbeschreibung",
+      "no_short_desc": "Keine Kurzbeschreibung",
+      "cost": "Kosten",
+      "urgency": "Dringlichkeit",
+
+      "urgency_types": {
+        "middle": "Mittelfristig",
+        "short": "Kurzfristig",
+        "long": "Langfristig",
+        "no_urgency": "Keine Dringlichkeit",
+        "critical": "Kritisch"
+      },
+      "status": {
+        "open": "Offen",
+        "in_progress": "In Bearbeitung",
+        "done": "Fertig",
+        "undefined": "Status ist undefiniert"
+      }
+    },
+    "details": {
+      "object_usage_unit": "Objekt/Nutzungseinheit",
+      "select_status": "Status auswählen",
+      "description": "Beschreibung",
+      "no_description": "Keine Beschreibung",
+      "note": "Interne Notiz",
+      "no_note": "Keine Interne Notiz",
+      "images": "Bilder"
+    },
+    "add": {
+      "select_unit": "Nutzungseinheit auswählen (optional)",
+      "select_entity": "Wirtschaftseinheit auswählen",
+      "select_property": "Objekt auswählen",
+      "select_maintenance": "Wartung/TGA auswählen (optional)",
+      "choose_urgency": "Wählen Sie die Dringlichkeit",
+      "choose_status": "Wählen Sie den Status",
+      "add_todo": "ToDo hinzufügen",
+      "select_type": "Typ auswählen"
+    }
+  },
+  "unit": {
+    "add_new": "Nutzungseinheit erstellen"
+  },
+  "model_types": {
+    "outdoor": "Aussenscan",
+    "outdoorthermo": "Aussenscan (Thermo)",
+    "technical": "Technischer Scan",
+    "indoor": "Innenscan",
+    "3d_view": "3D-Ansicht"
+  },
+  "model": {
+    "model_type": "Modelltyp"
+  },
+  "filter": {
+    "apply_filters": "Filter anwenden",
+    "select_filters": "Filter auswählen",
+    "select_time": "Zeitpunkt der Erstellung",
+    "start_date": "Startdatum",
+    "end_date": "Enddatum"
+  },
+  "edit": {
+    "entity": "Wirtschaftseinheit bearbeiten",
+    "property": "Objekt bearbeiten",
+    "maintenance": "Wartungsobjekt bearbeiten",
+    "todo": "ToDo bearbeiten",
+    "unit": "Nutzungseinheit bearbeiten"
+  },
+  "delete": {
+    "first_message": "Sind Sie sicher, dass Sie diesen Datensatz löschen möchten?",
+    "second_message": "Alle Daten die diesem Objekt zugeordnet sind werden gelöscht!",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "sort": {
+    "byNumber": "Sortieren nach Interne Nummer",
+    "byName": "Sortieren nach Name",
+    "byCity": "Sortieren nach Stadt",
+    "byZipCode": "Sortieren nach PLZ",
+    "byCostHigh": "Kosten: Hoch-Niedrig",
+    "byCostLow": "Kosten: Niedrig-Hoch",
+    "byUrgency": "Sortieren nach Dringlichkeit",
+    "byStatus": "Sortieren nach Status",
+    "applySorting": "Sortierung anwenden",
+    "byDateInstallNew": "Sortieren nach Baujahr (neueste zuerst)",
+    "byDateInstallOld": "Sortieren nach Baujahr (älteste zuerst)",
+    "byType": "Sortieren nach Typ"
+  }
+}

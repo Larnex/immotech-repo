@@ -1,0 +1,227 @@
+{
+  "main": {
+    "entity": "Business Entity",
+    "entities": "Business Entities",
+    "property": "Property",
+    "properties": "Properties",
+    "utilization_unit": "Unit",
+    "utilization_units": "Units",
+    "created": "Created",
+    "maintenance": "MEP/Maintenance",
+    "todos": "ToDo's",
+    "building_services": "MEP/Maintenance",
+    "cancel": "Cancel",
+    "take_photo": "Take or select a photo",
+    "unable_add": "Unable to add",
+    "fill_gps": "Fill the address fields using GPS",
+    "search": "Search",
+    "entities_list": "Entities list",
+    "properties_list": "Properties list",
+    "maintenance_list": "Maintenance list",
+    "todo_list": "To do list",
+    "select_parameter": "Select a parameter",
+    "no_maintenances": "No maintenance",
+    "no_todos": "No ToDo's",
+    "no_properties": "No properties",
+    "no_entities": "No entities",
+    "clear_search": "Clear search",
+    "search_by_name": "Find the object by name",
+    "overview": "Overview",
+    "see_all": "see all",
+    "detailed_info": "Detailed Info",
+    "value": "Value",
+    "parent_container": "Parent container",
+    "active_todos": "Active Todo's"
+  },
+  "validators": {
+    "title": "The title field is required",
+    "name": "The name field is required",
+    "id": "ID field is required",
+    "city": "The city field is required",
+    "zip_code": "The zip code field is required",
+    "container": "The container is required",
+    "type": "The type is required",
+    "address": "The address is required",
+    "field": "The field is required",
+    "street": "The street name is required",
+    "building": "The building number is required",
+    "postal_code": "The postal code is required"
+  },
+  "protocols_statuses": {
+    "not_testable": "Not Checkable",
+    "defect": "Defect",
+    "no_damage": "No Damage",
+    "leakage": "Leakage",
+    "missing": "Missing",
+    "dirty": "Dirty",
+    "clogged": "Clogged",
+    "disturbance": "Disturbance",
+    "not_functional": "Not Functioning",
+    "vandalism": "Vandalism",
+    "expired": "Audit Overdue"
+  },
+  "attribute": {
+    "value": "Attribute Value",
+    "type": "Attribute Type",
+    "add": "Add Attribute",
+    "delete": "Delete Attribute"
+  },
+  "profile": {
+    "username": "Username",
+    "country": "Country",
+    "city": "City",
+    "street": "Street",
+    "region": "Region",
+    "sign_out": "Sign out"
+  },
+  "entities_list": {
+    "add_new": "Add Business Entity",
+    "city": "City",
+    "zip_code": "Zip Code",
+    "internal_number": "Internal Number",
+    "last_viewed": "Last Viewed"
+  },
+  "entities_details": {
+    "title": "Title"
+  },
+  "properties_list": {
+    "add_new": "Add Property",
+    "from_me": "From me",
+    "distance_unknown": "Distance unknown",
+    "nearby": "Nearby"
+  },
+  "properties_details": {
+    "type": "Type",
+    "select_type": "Select Type",
+    "photo": "Photo",
+    "image": "Image",
+    "address": "Location",
+    "map": "Map",
+    "select_list": "Select the list"
+  },
+  "unit": {
+    "add_new": "Add Unit"
+  },
+  "tga": {
+    "add_new": "Add MEP/Maintenance",
+    "type": "Type",
+    "no_type": "No Type",
+    "location": "Location",
+    "no_location": "No Location",
+    "manufacturer": "Manufacturer",
+    "no_manufacturer": "No Manufacturer",
+    "date_installation": "Year/Date of Installation",
+    "images": "Images",
+    "subtype": "Subtype",
+    "no_subtype": "No Subtype",
+    "maintenance_type": "Maintenance Type",
+    "no_maintenance_type": "No Maintenance Type",
+    "add_note": "Add Note",
+    "delete_note": "Delete Note",
+    "service_provider": "Service Provider"
+  },
+  "protocol": {
+    "localization": "Localization",
+    "form_invalid": "Form is invalid",
+    "confirm": "Confirm (next)",
+    "start_protocol": "Start Protocol",
+    "protocols_list": "Protocols List",
+    "fix": "How to fix",
+    "protocol_creation": "Protocol Creation",
+    "skip_maintenance": "Skip this maintenance",
+    "send_protocol": "Send Protocol",
+    "continue_protocol": "Continue Protocol",
+    "new_protocol_confirm": "Do you want to start the new protocol?",
+    "new_protocol": "New Protocol",
+    "edit_protocol": "Edit Protocol",
+    "confirm_changes": "Confirm Changes",
+    "download_pdf": "Download PDF"
+  },
+  "todo": {
+    "add_new": "Add ToDo",
+
+    "list": {
+      "short_desc": "Short Description",
+      "long_desc": "Long Description",
+      "no_short_desc": "No short description",
+      "cost": "Cost",
+      "urgency": "Urgency",
+
+      "urgency_types": {
+        "middle": "Medium-term",
+        "short": "short-term",
+        "long": "long-term",
+        "no_urgency": "No urgency",
+        "critical": "Critical"
+      },
+      "status": {
+        "open": "Open",
+        "in_progress": "In Process",
+        "done": "Completed",
+        "undefined": "Status is undefined"
+      }
+    },
+    "add": {
+      "select_unit": "Select Unit (not mandatory)",
+      "select_entity": "Select Business Entity",
+      "select_property": "Select Property",
+      "choose_urgency": "Choose the urgency",
+      "choose_status": "Choose the status",
+      "add_todo": "Add ToDo",
+      "select_type": "Select Type"
+    },
+    "details": {
+      "object_usage_unit": "Object/usage unit",
+      "select_status": "Select status",
+      "description": "Description",
+      "no_description": "No description",
+      "note": "Note",
+      "no_note": "No note",
+      "images": "Images"
+    }
+  },
+  "model_types": {
+    "outdoor": "Outdoor",
+    "outdoorthermo": "Outdoor thermo",
+    "technical": "Technical",
+    "indoor": "Indoor",
+    "3d_view": "3D View"
+  },
+  "model": {
+    "model_type": "3D Model Types"
+  },
+  "filter": {
+    "apply_filters": "Apply Filters",
+    "select_filters": "Select filters",
+    "select_time": "Select time",
+    "start_date": "Start Date",
+    "end_date": "End Date"
+  },
+  "edit": {
+    "entity": "Edit business entity",
+    "property": "Edit property",
+    "unit": "Edit unit",
+    "todo": "Edit ToDo",
+    "tga": "Edit MEP/Maintenance"
+  },
+  "delete": {
+    "first_message": "Are you sure you want to delete this record?",
+    "second_message": "All data assigned to this object will be deleted!",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "sort": {
+    "byNumber": "Sort by Internal Number",
+    "byName": "Sort by Name",
+    "byCity": "Sort by City",
+    "byZipCode": "Sort by Zip Code",
+    "byCostHigh": "Sort by Cost (high to low)",
+    "byCostLow": "Sort by Cost (low to high)",
+    "byUrgency": "Sort by Urgency",
+    "byStatus": "Sort by Status",
+    "applySorting": "Apply Sorting",
+    "byDateInstallNew": "Sort by Date of Installation (new to old)",
+    "byDateInstallOld": "Sort by Date of Installation (old to new)",
+    "byType": "Sort by Type"
+  }
+}
